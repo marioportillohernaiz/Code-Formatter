@@ -1,0 +1,20 @@
+public class formatter {public static void main(String[] args) throws Exception {
+	public static String readFile(String fileName) throws FileNotFoundException, IOException {
+		 String returnString = "";try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+String line = br.readLine();
+while (line != null) {
+	returnString += line;
+line = br.readLine();}}	return returnString;	}}
+
+public static String removeSpacings(String file) {
+	String returnString = "";
+		
+	for (int index=0; index<=file.length()-1; index++) {
+if (index <= file.length()
+-4) { 
+
+if (file.charAt(index) == ' ' && file.charAt(index+1) == ' ' && file.charAt(index+2) == ' ' && file.charAt(index+3) == ' ') {returnString += "";
+index += 3;} else if (file.charAt(index) == '	') {
+		returnString += "";} else {	returnString += file.charAt(index);
+}} else {				if (file.charAt(index) != '	') {			returnString += file.charAt(index);
+}}}return returnString;}}

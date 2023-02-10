@@ -1,0 +1,9 @@
+private bool isPositive(int param){
+if (param == 0) {return true;
+	}
+	else if (param == 1
+3) {
+callParameter();return false;}else {
+	return null;
+	}
+}
