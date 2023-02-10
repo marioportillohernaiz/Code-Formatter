@@ -2,14 +2,14 @@
 
 This java program allows an input of unformatted code and outputs the same code with the correct format depending on how the user wants it. For exmaple, the number of indents such as 2 or 4 spaces per indent, brace location on the same line or own line or parameter spacing on brakets. Mainly the program formats programming languages such as Java or C++ or programming languages similar to those.
 
-For example indent:
+For example 4 indents:
 ```
 if (param == 0) {
     return true;
 }
 ```
 
-Or:
+Or 2:
 ```
 if (param == 0) {
   return true;
